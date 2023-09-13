@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DZ1</title>
+    
+</head>
+<body>
+<li> <a href="http://www.kubsu.ru/" title="Официальный сайт КубГУ">http КубГУ</a></li> <!-- 1 -->
+<li> <a href ="https://www.kubsu.ru/">https КубГУ</a></p></li> <!--2-->
+<li><a href = "http://www.kubsu.ru/" >
+    <img src="image.jpg" alt="Цветок" width="300" height="200" title="Ссылка-изображение"></a>  </li> <!--3-->
+
+<li><a href ="/about/s1.html"> Сокращённая ссылка на внутреннюю страницу</a></li> <!--4-->
+<li><a href ="/index.html"> Сокращённая ссылка на главную страницу</a></li> <!--5-->
+
+<li><a href="#silka">Ссылка на фрагмент текущей страницы</a></li>
+
+<li><a href="https://www.kubsu.ru/ru/abiturient"> Ссылка c 3-мя параметрами в URL</a></li> <!--7-->
+<li><a href="https://moodle.kubsu.ru/course/view.php?id=780"> ССылка c id в URL</a></li> <!--8-->
+<li><a href="/index2.html">Относительная ссылка на страницу в текущем каталоге</a></li> <!--9-->
+<li><a href="/about/s1.html">Относительная ссылка на страницу в каталоге about</a></li> <!--10-->
+<li>
+    Краснодар — город на юго-западе <a href="https://ru.wikipedia.org/wiki/Россия">России</a>,
+    <br>расположенный на правом берегу реки Кубани
+</li>
+
+<li><a href="https://ru.wikipedia.org/wiki/Кубгу#Рейтинги">Ссылка на фрагмент на другом сайте</a></li>
+<li>
+Ссылка в прямоугольной и круглой области <br>
+<img src="photo_2023-09-13_21-41-34.jpg" alt="Фото для задания" width="200" height="100" usemap="#link">
+<map name="link"><area shape="rect" coords="8,8,100,100" href="about/s1.html" alt="КВАДРАТ">
+<area shape="circle" coords="200,75,80" href="http://kubsu.ru" alt="КРУГ"> <!--15-->
+</map></li>
+
+<li><a href>Ссылка с пустым href</a></li> <!--16-->
+<li><a>Ссылка без href</a></li> <!--17-->
+
+<li><a href="index2.html" rel="nofollow"> Ссылка по которой запрещен переход поисковикам</a></li>
+
+<a href="index2.html" rel="nofollow"><noindex>Ссылка запрещенная для индексации</noindex></a>
+
+<br>
+<li><a href="ftp://demo@test.rebex.net/pub/example/imap-console-client.png">Ссылка на файл на сервере FTP
+    c авторизацией</a></li>
+<br><h2 id="a1">Форма:</h2>
+<form action="/" method="POST">
+<label>
+    ФИО: <br>
+    <input type="text" name="student_name" placeholder="Иванов Иван Иванович">
+</label>
+<br>
+<label>
+    Номер телефона:<br>
+    <input type="number" name="student_pnone">
+</label>
+<br>
+<label>
+    Email:<br>
+    <input type="email" name="email" placeholder="Введите вашу почту">
+</label>
+<br>
+<label>
+    Дата рождения:<br>
+    <input type="date" name="date">flex
+</label>
+<br>
+<label>
+    Пол:<br>
+    <input name="sex" type="radio" value="male">Мужской
+</label>
+<label>
+    <input name="sex" type="radio" value="female">Женский
+</label>
+<br><br>
+Любимый язык программирования:<br>
+<select name="PL" multiple="multiple">
+<option value="Pascal">Pascal</option>slot
+<option value="C">C</option>slot
+<option value="C++">C++</option>slot
+<option value="JavaScript">JavaScript</option>slot
+<option value="PHP">PHP</option>slot
+<option value="Python">Python</option>slot
+<option value="Haskel">Haskel</option>slot
+<option value="Clojure">Clojure</option>slot
+<option value="Prolog">Prolog</option>slot
+<option value="Scala">Scala</option>slot</select>
+<br>
+<label>
+    Биография:<br>
+    <textarea name="student_bio"></textarea>
+</label><br>
+<label>
+    С контрактом ознакомлен(а):
+    <input type="checkbox" name="check">
+</label>
+<br>
+<input type="submit" value="Сохранить">
+</form>
+
+</body>
+</html>
