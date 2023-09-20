@@ -1,12 +1,33 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
+    <div style="width:100%; background-color:#1ebfdb; padding: 10px; height:120px;"> 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DZ1</title>
-    
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <header>
+        <div class="container">
+          <a href="#" class="logo"> <img src="hasbik.jpg" width="100" height="100" alt="logo"></a>
+          <a href="#" class="title">Domashka</a>
+          <nav class="shapka">
+            <ul>
+              <li><a href="index.html">Главная</a></li>
+              <li><a href="index2.html">Первая страничка</a></li>
+              <li><a href="./about/s1.html">Вторая страничка</a></li>
+              <li><a href="#a2">Таблица</a></li>
+              <li><a href="#a1">Форма</a></li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+      <div class="main">
+        <div class="container body">
+          <nav class="spisok">
+    
+    <br>
 <li> <a href="http://www.kubsu.ru/" title="Официальный сайт КубГУ">http КубГУ</a></li> <!-- 1 -->
 <li> <a href ="https://www.kubsu.ru/">https КубГУ</a></p></li> <!--2-->
 <li><a href = "http://www.kubsu.ru/" >
@@ -44,7 +65,56 @@
 <br>
 <li><a href="ftp://demo@test.rebex.net/pub/example/imap-console-client.png">Ссылка на файл на сервере FTP
     c авторизацией</a></li>
-<br><h2 id="a1">Форма:</h2>
+    <br>
+    <table> 
+        <caption id="in">Таблица</caption> 
+        <thead> 
+        <tr> 
+          <th>Имя</th> 
+          <th>Фамилия</th> 
+          <th>Страна</th> 
+          <th>Город</th> 
+        </tr> 
+      </thead> 
+      <tbody>
+        <tr> 
+            <td>Ангелина</td> 
+            <td>Король</td> 
+            <td>ОАЭ</td> 
+            <td>Дубай</td> 
+          </tr> 
+          <tr> 
+            <td>Владимир</td> 
+            <td>Галстян</td> 
+            <td rowspan="2">Россия</td> 
+            <td>Кисловодск</td> 
+          </tr> 
+          <tr> 
+            <td>Егор</td> 
+            <td>Фоменко</td> 
+            <td>Краснодар</td> 
+          </tr> 
+          <tr> 
+            <td>Кира</td> 
+            <td>Куликова</td> 
+            <td>Беларусь</td> 
+            <td>Минск</td> 
+          </tr> 
+          <tr> 
+            <td>Георгий</td> 
+            <td>Садунян</td> 
+            <td>Россия</td> 
+            <td>Джубга</td> 
+          </tr> 
+          <tr> 
+            <td>Жуль</td> 
+            <td>Пьер</td> 
+            <td>Франция</td> 
+            <td>Париж</td> 
+          </tr> 
+        </tbody> 
+        </table> 
+<br><h2 id="#silka">Форма:</h2>
 <form action="/" method="POST">
 <label>
     ФИО: <br>
@@ -87,6 +157,7 @@
 <option value="Prolog">Prolog</option>slot
 <option value="Scala">Scala</option>slot</select>
 <br>
+
 <label>
     Биография:<br>
     <textarea name="student_bio"></textarea>
@@ -98,6 +169,10 @@
 <br>
 <input type="submit" value="Сохранить">
 </form>
+<br>
+<div> <footer>
+    2023 Садунян Георгий 27/2
+  </footer></div>
 
 </body>
 </html>

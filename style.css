@@ -1,0 +1,93 @@
+header{
+    background-color: #0abab5;
+    margin: -10px;
+    padding: 0;
+  }
+  .logo {
+      float: left;
+    }
+  .title{
+      float: left;
+      margin: 0;
+      padding: 5px;
+      color: black;
+      text-decoration: none;
+      font-size: 36px;
+  }
+    .shapka {
+      float: right;
+    }
+    .shapka ul {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+    .shapka li {
+      display: inline-block;
+      margin-left: 10px; /*способ разместить элементы в строку*/
+    }
+    .container:after { 
+      content: "";
+      display: table;
+      clear: both;
+    }
+    .container {
+      width: 100%;
+      max-width: 1024px;
+      padding: 15px;
+      margin: 0 auto;
+    }
+    .shapka a{
+      line-height: 50px;
+      text-decoration: none;
+      color: black;
+    }
+    .container body {
+      float:left;
+      max-width: 960px;
+    }
+    .container body{
+      width: 100%;
+      text-align: center;
+    }
+    .main{
+      text-align: center;
+    }
+    .container body{
+      display: inline-block;
+    }
+    ul{
+      text-align: center;
+      list-style-position: inside;
+    }
+    ol{
+      text-align: center;
+      list-style-position: inside;
+    }
+    .container body ul{
+      display: inline-block;
+      text-align: left;
+    }
+    table {
+      border: 1px solid grey;
+      border-collapse: collapse;/*совместим рамки*/
+      width: 100%;
+   }
+   td {
+      border: 1px solid grey;
+   }
+  tbody tr:nth-child(odd)
+  {
+      background: #D8BFD8;
+  }
+  tbody tr:nth-child(even)
+  {
+      background: #E6E6FA;
+  }
+  footer{
+    padding: 20px;
+    margin: -10px;
+    background-color: #D8BFD8;
+    color: #000;
+  }
+  
