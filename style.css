@@ -3,6 +3,9 @@ header{
     margin: -10px;
     padding: 0;
   }
+  header{
+    display: flex;
+  }
   .logo {
       float: left;
     }
@@ -33,7 +36,6 @@ header{
     }
     .container {
       width: 100%;
-      max-width: 1024px;
       padding: 15px;
       margin: 0 auto;
     }
@@ -44,7 +46,6 @@ header{
     }
     .container body {
       float:left;
-      max-width: 960px;
     }
     .container body{
       width: 100%;
@@ -71,7 +72,8 @@ header{
     table {
       border: 1px solid grey;
       border-collapse: collapse;/*совместим рамки*/
-      width: 100%;
+      width: 60%;
+      margin-left: 20%;
    }
    td {
       border: 1px solid grey;
