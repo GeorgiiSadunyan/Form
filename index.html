@@ -1,76 +1,57 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-    <div style="width:100%; background-color:#1ebfdb; padding: 10px; height:120px;"> 
+    <div style="width:100%; background-color:#0ab8b2; padding: 10px; height:120px;"> 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DZ1</title>
+    <title>Задание 3</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <div class="container">
-          <a href="#" class="logo"> <img src="hasbik.jpg" width="100" height="100" alt="logo"></a>
-          <a href="#" class="title">Domashka</a>
-          <nav class="shapka">
-            <ul>
-              <li><a href="index.html">Главная</a></li>
-              <li><a href="index2.html">Первая страничка</a></li>
-              <li><a href="./about/s1.html">Вторая страничка</a></li>
-              <li><a href="#a1">Таблица</a></li>
-              <li><a href="#a2">Форма</a></li>
-            </ul>
-          </nav>
-        </div>
-      </header>
-      <div class="main">
-        <div class="container body">
-          <nav class="spisok">
-    
-    <br>
-<li> <a href="http://www.kubsu.ru/" title="Официальный сайт КубГУ">http КубГУ</a></li> <!-- 1 -->
-<li> <a href ="https://www.kubsu.ru/">https КубГУ</a></p></li> <!--2-->
-<li><a href = "http://www.kubsu.ru/" >
-    <img src="image.jpg" alt="Цветок" width="300" height="200" title="Ссылка-изображение"></a>  </li> <!--3-->
+ <header>
+      <a href="#" class="logo"> <img src="hasbik.jpg" width="50" height="50" alt="logo"></a>
+      <a href="#" class="title">Мой сайт</a>
+      <nav class="shapka">
+        <ul>
+          <li><a href="index.html">Главная</a></li>
+          <li><a href="index2.html">Первая страничка</a></li>
+          <li><a href="./about/s1.html">Вторая страничка</a></li>
+          <li><a href="#a2">Таблица</a></li>
+          <li><a href="#a1">Форма</a></li>
+        </ul>
+      </nav>
+  </header>
+  <div class="main">
+    <nav class="spisok">
+      <ul> <br><br><br><br><br>
+          <li><a href="http://kubsu.ru/">KUBSU</a></li> 
+          <li><a href="https://kubsu.ru/">KUBSU в протоколе https</a></li> 
+          <li><a href = "http://www.kubsu.ru/"><img src="image.jpg" alt="Цветок" width="300" height="200" title="Ссылка-изображение"></a>  </li>
+          <li><a href="/about/s1.html"> Сокращенная ссылка на внутреннюю страницу</a></li>
+          <li><a href="/index.html"> Сокращенная ссылка на главную страницу</a></li>
+          <li><a href="#a1">Ссылка на фрагмент текущей страницы</a></li> <!--Возможна ошибка-->
+          <li><a href="https://yandex.ru/search/?text=russia&lr=56&clid=456889"> Ссылка с 3 параметрами в URL </a></li>
+          <li><a href="http://kubsu.ru/?id=fhttjk45"> Ссылка с параметром id в URL</a></li>
+          <li><a href="/index2.html"> Относительная ссылка на страницу в текущем каталоге</a></li>
+          <li><a href="/about/s1.html">Относительная ссылка на страницу в каталоге about</a></li>
+          <li>Краснодар — город на юго-западе <a href="https://ru.wikipedia.org/wiki/Россия">России</a>,<br>расположенный на правом берегу реки Кубани</li>
+          <li><a href="https://ru.wikipedia.org/wiki/Кубгу#Рейтинги">Ссылка на фрагмент на другом сайте</a></li>
+          <li>
+          Ссылка в прямоугольной и круглой области <br>
+          <img src="photo_2023-09-13_21-41-34.jpg" alt="Фото для задания" width="200" height="100" usemap="#link">
+          <map name="link"><area shape="rect" coords="8,8,100,100" href="about/s1.html" alt="КВАДРАТ">
+          <area shape="circle" coords="200,75,80" href="http://kubsu.ru" alt="КРУГ"> 
+          </map></li>
 
-<li><a href ="/about/s1.html"> Сокращённая ссылка на внутреннюю страницу</a></li> <!--4-->
-<li><a href ="/index.html"> Сокращённая ссылка на главную страницу</a></li> <!--5-->
-
-<li><a href="#silka">Ссылка на фрагмент текущей страницы</a></li>
-
-<li><a href="https://www.kubsu.ru/ru/abiturient"> Ссылка c 3-мя параметрами в URL</a></li> <!--7-->
-<li><a href="https://moodle.kubsu.ru/course/view.php?id=780"> ССылка c id в URL</a></li> <!--8-->
-<li><a href="/index2.html">Относительная ссылка на страницу в текущем каталоге</a></li> <!--9-->
-<li><a href="/about/s1.html">Относительная ссылка на страницу в каталоге about</a></li> <!--10-->
-<li>
-    Краснодар — город на юго-западе <a href="https://ru.wikipedia.org/wiki/Россия">России</a>,
-    <br>расположенный на правом берегу реки Кубани
-</li>
-
-<li><a href="https://ru.wikipedia.org/wiki/Кубгу#Рейтинги">Ссылка на фрагмент на другом сайте</a></li>
-<li>
-Ссылка в прямоугольной и круглой области <br>
-<img src="photo_2023-09-13_21-41-34.jpg" alt="Фото для задания" width="200" height="100" usemap="#link">
-<map name="link"><area shape="rect" coords="8,8,100,100" href="about/s1.html" alt="КВАДРАТ">
-<area shape="circle" coords="200,75,80" href="http://kubsu.ru" alt="КРУГ"> <!--15-->
-</map></li>
-
-<li><a href>Ссылка с пустым href</a></li> <!--16-->
-<li><a>Ссылка без href</a></li> <!--17-->
-
-<li><a href="index2.html" rel="nofollow"> Ссылка по которой запрещен переход поисковикам</a></li>
-
-<a href="index2.html" rel="nofollow"><noindex>Ссылка запрещенная для индексации</noindex></a>
-
-<ol>
-<li><a  href="https://kubsu.ru" title="Сайт КУБГУ"> Сайт ВУЗа</a></li>
-<li><a  href="https://vk.com/" title="сайт Вконтакте"> Вконтакте</a></li>
-<li><a  href="https://www.youtube.com/" title="Youtube"> youtube</a></li>
-</ol>
-<li><a href="ftp://demo@test.rebex.net/pub/example/imap-console-client.png">Ссылка на файл на сервере FTP
-    c авторизацией</a></li>
-    <br>
-    <table> 
+          <li><a href="index2.html" rel="nofollow"> Ссылка по которой запрещен переход поисковикам</a></li>
+          <a href="index2.html" rel="nofollow"><noindex>Ссылка запрещенная для индексации</noindex></a>
+          <ol>
+          <li><a  href="https://kubsu.ru" title="Сайт КУБГУ"> Сайт ВУЗа</a></li>
+          <li><a  href="https://vk.com/" title="сайт Вконтакте"> Вконтакте</a></li>
+          <li><a  href="https://www.youtube.com/" title="Youtube"> youtube</a></li>
+          </ol>
+      </nav>
+      <table> 
         <caption id="a1">Таблица</caption> 
         <thead> 
         <tr> 
@@ -123,67 +104,58 @@
           </tr>
         </tbody> 
         </table> 
-<br><h2 id="a2">Форма:</h2>
-<form action="/" method="POST">
-<label>
-    ФИО: <br>
-    <input type="text" name="student_name" placeholder="Иванов Иван Иванович">
-</label>
-<br>
-<label>
-    Номер телефона:<br>
-    <input type="number" name="student_pnone">
-</label>
-<br>
-<label>
-    Email:<br>
-    <input type="email" name="email" placeholder="Введите вашу почту">
-</label>
-<br>
-<label>
-    Дата рождения:<br>
-    <input type="date" name="date">flex
-</label>
-<br>
-<label>
-    Пол:<br>
-    <input name="sex" type="radio" value="male">Мужской
-</label>
-<label>
-    <input name="sex" type="radio" value="female">Женский
-</label>
-<br><br>
-<label>Любимый язык программирования</label><br /> 
-  <select name="language[]" multiple="multiple" size="11"> 
-      <option value="1">Pascal</option> 
-      <option value="2">C</option> 
-      <option value="3">C++</option> 
-      <option value="4">JavaScript</option> 
-      <option value="5">PHP</option> 
-      <option value="6">Python</option> 
-      <option value="7">Java</option> 
-      <option value="8">Haskel</option> 
-      <option value="9">Clojure</option> 
-      <option value="10">Prolog</option> 
-      <option value="11">Scala</option> 
-  </select><br />
-<br>
-
-<label>
-    Биография:<br>
-    <textarea name="student_bio"></textarea>
-</label><br>
-<label>
-    С контрактом ознакомлен(а):
-    <input type="checkbox" name="check">
-</label>
-<br>
-<input type="submit" value="Сохранить">
-</form>
-<br>
-<div> <footer>
+      <div class="forma">
+      <h2 id="a1">Форма:</h2>
+      <form action="/" method="POST">
+      <label>
+        ФИО:<br />
+        <input type="text" name="student_name" placeholder="Иванов Иван Иванович">
+      </label><br />
+      <label>
+        Номер телефона:<br />
+        <input type="number" name="student_pnone">
+      </label><br />
+      <label>
+        Email:<br />
+        <input type="email" name="email" placeholder="Введите вашу почту">
+      </label><br />
+      <label>
+        Дата рождения:<br />
+        <input type="date" name="date">
+      </label><br />
+      <label>
+        Пол:<br />
+          <input name=sex type="radio" value="male">
+          Мужской</label>
+      <label>
+          <input name=sex type="radio" value="female" checked="checked">
+          Женский</label> <br />
+      <label>
+      Любимый язык программирования: <br>
+        <select name="PL[]" multiple="multiple">
+            <option value="Pascal">Pascal</option>
+            <option value="C">C</option>
+            <option value="C++">C++</option>
+            <option value="JavaScript">JavaScript</option>
+            <option value="PHP">PHP</option>
+            <option value="Python">Python</option>
+            <option value="Haskel">Haskel</option>
+            <option value="Clojure">Clojure</option>
+            <option value="Prolog">Prolog</option>
+            <option value="Scala">Scala</option>
+        </select>
+      </label><br />
+      <label>
+        Биография:<br />
+        <textarea name="student_bio"></textarea>
+      </label><br />
+      <label> С контрактом ознакомлен(а):<input type="checkbox" name="check"></label><br />
+      <input type="submit" value="Сохранить">
+      </form>
+    </div>
+  </div>
+  <footer>
     2023 Садунян Георгий 27/2
-  </footer></div>
-
-</body>
+  </footer>
+  </body>
 </html>

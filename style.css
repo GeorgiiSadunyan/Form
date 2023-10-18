@@ -1,95 +1,146 @@
-header{
-    background-color: #0abab5;
-    margin: -10px;
-    padding: 0;
-  }
-  header{
+header
+{
+  width: 100%;
+  background-color: #0ab8b2;
+  margin: 10px;
+  padding: 0;
+}
+header a{
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+header ul{
+  list-style: none;
+}
+.title
+{
+  font-size: 36px;
+}
+table {
+  border: 1px solid grey;
+  border-collapse: collapse;
+}
+td {
+  border: 1px solid grey;
+}
+tbody tr:nth-child(odd)
+{
+    background: #D8BFD8;
+}
+tbody tr:nth-child(even)
+{
+    background: #E6E6FA;
+}
+.main
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+form
+{
+  text-align: center;
+  padding-bottom:30px ;
+}
+#a1
+{
+  text-align: center;
+}
+footer{
+  display: flex;
+  justify-content: flex-start;
+  padding: 20px;
+  margin: -20px;
+  background-color: #D8BFD8;
+  color: #000;
+} 
+@media screen and (min-width:360px){
+  .logo
+  {
     display: flex;
+    justify-content: flex-start;
   }
-  .logo {
-      float: left;
-    }
-  .title{
-      float: left;
-      margin: 0;
-      padding: 5px;
-      color: black;
-      text-decoration: none;
-      font-size: 36px;
-  }
-    .shapka {
-      float: right;
-    }
-    .shapka ul {
-      margin: 0;
-      padding: 0;
-      list-style: none;
-    }
-    .shapka li {
-      display: inline-block;
-      margin-left: 10px; /*способ разместить элементы в строку*/
-    }
-    .container:after { 
-      content: "";
-      display: table;
-      clear: both;
-    }
-    .container {
-      width: 100%;
-      padding: 15px;
-      margin: 0 auto;
-    }
-    .shapka a{
-      line-height: 50px;
-      text-decoration: none;
-      color: black;
-    }
-    .container body {
-      float:left;
-    }
-    .container body{
-      width: 100%;
-      text-align: center;
-    }
-    .main{
-      text-align: center;
-    }
-    .container body{
-      display: inline-block;
-    }
-    ul{
-      text-align: center;
-      list-style-position: inside;
-    }
-    ol{
-      text-align: center;
-      list-style-position: inside;
-    }
-    .container body ul{
-      display: inline-block;
-      text-align: left;
-    }
-    table {
-      border: 1px solid grey;
-      border-collapse: collapse;/*совместим рамки*/
-      width: 60%;
-      margin-left: 20%;
-   }
-   td {
-      border: 1px solid grey;
-   }
-  tbody tr:nth-child(odd)
+  .title
   {
-      background: #D8BFD8;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -50px;
   }
-  tbody tr:nth-child(even)
+  .shapka li
   {
-      background: #E6E6FA;
+    margin-left: -40px;
   }
-  footer{
-    padding: 20px;
-    margin: -10px;
-    background-color: #D8BFD8;
-    color: #000;
+  .spisok ul
+  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
-  
+  .spisok ol {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .spisok ul{
+    list-style-position: inside;
+  }
+  .spisok ol{
+    list-style-position: inside;
+  }
+  table 
+  {
+    order:-1;
+    width: 50%;
+  }
+}
+@media screen and (min-width:768px) {
+  .logo
+  {
+    display: flex;
+    justify-content: flex-start;
+  }
+  .title
+  {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 50px;
+  }
+  .shapka
+  {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -50px;
+    padding: 5px;
+  }
+  .shapka li
+  {
+    display: inline;
+    margin-left: 5px;
+  }
+  .main ul
+  {
+    width: 960px;
+  }
+  .spisok ul
+  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  table 
+  {
+    order:0;
+    width: 960px;
+  }
+
+}
+.navbar-nav {
+  margin-left: auto;
+}
+.spisok{
+  list-style-position: inside;
+}
