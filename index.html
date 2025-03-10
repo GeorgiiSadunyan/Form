@@ -1,6 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <!-- Favicon для браузера -->
+<link rel="icon" type="image/png" sizes="32x32" href="icons/favicon.ico">
+
+<!-- Иконки для мобильных устройств -->
+<link rel="apple-touch-icon" sizes="192x192" href="icons/icon-192.png">
+<link rel="apple-touch-icon" sizes="512x512" href="icons/icon-512.png">
+
+<!-- Meta-тег для iOS (чтобы Safari использовал иконку) -->
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Форма обратной связи</title>
@@ -12,7 +23,7 @@
 <button onclick="openForm()">Открыть форму</button>
 
 <!-- Попап формы -->
-<div id="popup">
+<div id="popup" style="display: flex;">
   <h2>Форма обратной связи</h2>
   <form id="feedbackForm" onsubmit="submitForm(event)">
     <label for="fullName">ФИО:</label>
