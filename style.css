@@ -20,10 +20,18 @@ body {
     z-index: 1000;
     overflow-y: auto;
   }
+
   label {
     display: block;
     margin-bottom: 8px;
   }
+
+  .checkbox-label {
+    display: flex;
+    white-space: nowrap;
+    margin-right: 8px;
+  }
+  
   input, textarea {
     width: 100%;
     padding: 8px;
@@ -31,14 +39,14 @@ body {
     box-sizing: border-box;
   }
   button {
-    background-color: #4caf50;
+    background-color: #1bd66c;
     color: #fff;
     padding: 10px;
     border: none;
     cursor: pointer;
   }
   button:hover {
-    background-color: #45a049;
+    background-color: #f90c0c;
   }
 
   /* Адаптация под мобильные устройства */
